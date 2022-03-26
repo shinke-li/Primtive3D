@@ -1,5 +1,7 @@
 # Primtive3D
-## Requirements
+This REPO is for CVPR2022 Paper: Primitive3D: 3D Object Dataset Synthesis from Randomly Assembled Primitives
+![](compare.png)
+## Installation
 All experiments have been tested on Python 3.6 and CUDA10.2 environment.
 ### Requirements for Data Generation
 **Install PyMesh：**
@@ -17,4 +19,11 @@ To generate Primitive3D dataset in '.h5' format, please run:
 ```bash
 python gen_primitive3d.py
 ``` 
-The dataset generation contains two step: 1) generate mesh-based objects with '.ply' formats in `./data/primitive3d_ply`. 2) generate point cloud with '.h5' format in `./data/primitive3d.h5`. User can change the default path by modify `gen_primitive3d.py`. Other modification can be done to determine the  statistics of dataset generation in this file. The default generated dataset is a small-scale dataset.
+The dataset generation contains two step: 
+* generate mesh-based objects with '.ply' formats in `./data/primitive3d_ply`. 
+* generate point cloud with '.h5' format in `./data/primitive3d.h5`. 
+
+User can change the default path by modify `gen_primitive3d.py`. Other modification can be done to determine the  statistics of dataset generation in this file. The default generated dataset is a small-scale dataset.
+
+
+## Download Link
