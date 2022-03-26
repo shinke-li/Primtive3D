@@ -1,6 +1,8 @@
 # Primtive3D
 This REPO is for CVPR2022 Paper: Primitive3D: 3D Object Dataset Synthesis from Randomly Assembled Primitives
-![](compare.png =300)
+<div align="center">
+	<img src="compare.png" alt="Editor" width="500">
+</div>
 ## Installation
 All experiments have been tested on Python 3.6 and CUDA10.2 environment.
 ### Requirements for Data Generation
