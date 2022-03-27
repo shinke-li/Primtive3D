@@ -1,10 +1,14 @@
 # Primtive3D Dataset
-This REPO is for CVPR2022 Paper: -Primitive3D: 3D Object Dataset Synthesis from Randomly Assembled Primitives-
+This REPO is for CVPR2022 Paper: *Primitive3D: 3D Object Dataset Synthesis from Randomly Assembled Primitives*
 <div align="center">
 	<img src="compare.png" alt="Editor" width="500">
 </div>
 
-We provide two data formats of Primitive3D dataset, namely, PLY data and H5DF data. PLY data contains a set of .ply files, each of which stands for a mesh of a Primitive3D object. Two extra information, **source** and **label**, is included in the .ply file, which are the segmentation labels. H5DF data stands for the .h5 files that samples 8192 points for each object.
+We provide two data formats of Primitive3D dataset, namely, PLY data and H5DF data. PLY data contains a set of .ply files, each of which stands for a mesh of a Primitive3D object. Two extra information, **source** and **label**, is included in the *.ply* file, which are the segmentation labels. H5DF data stands for the *.h5* files that samples 8192 points for each object. Each *.h5* file contains the following keys and data:
+* *data*: points.
+* *sem_label*: asdasd.
+
+If ones would like to generate their own datase, please refer to [`Data Generation`](##Data Generation).
 
 ## Installation
 All experiments have been tested on Python 3.6 and CUDA10.2 environment.
@@ -18,8 +22,7 @@ Other depent packages can be installed by the following command
 pip install -r datagen_requirements.txt
 ```
 
-## Run Details
-### Primitive3D Generation
+## Data Generation
 To generate Primitive3D dataset in '.h5' format, please run:
 ```bash
 python gen_primitive3d.py
