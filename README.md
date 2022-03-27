@@ -40,4 +40,4 @@ User can change the default path by modify `gen_primitive3d.py`. Other modificat
 ## Download Link
 | Name |  PLY Link   | H5DF Link  | Description |
 |  ----  | ----  |  ----  | ----  |
-|Original|link|link|Origninal Generated dataset |
+|Original|[link](https://nusdataset.s3.ap-southeast-1.amazonaws.com/primitive3d/primitive3D_ply.zip)(5.8 GB)|[link](https://nusdataset.s3.ap-southeast-1.amazonaws.com/primitive3d/primitive3D.h5)(36.6GB)|150,000 objects with 1-6 primitives. |
