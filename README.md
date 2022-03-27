@@ -1,4 +1,4 @@
-# Primtive3D Dataset
+# Primtive3D: *3D Object Dataset Synthesis from Randomly Assembled Primitives*
 This REPO is for CVPR2022 Paper: *Primitive3D: 3D Object Dataset Synthesis from Randomly Assembled Primitives*
 <div align="center">
 	<img src="compare.png" alt="Editor" width="500">
