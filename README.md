@@ -8,7 +8,7 @@ We provide two data formats of Primitive3D dataset, namely, PLY data and H5DF da
 * *data*: points.
 * *sem_label*: asdasd.
 
-If ones would like to generate their own datase, please refer to [`Data Generation`](## Data Generation).
+If ones would like to generate their own datase, please refer to [`Data Generation`](#data generation).
 
 ## Installation
 All experiments have been tested on Python 3.6 and CUDA10.2 environment.
