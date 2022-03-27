@@ -5,7 +5,7 @@ This REPO is for CVPR2022 Paper: *Primitive3D: 3D Object Dataset Synthesis from 
 </div>
 
 We provide two data formats of Primitive3D dataset, namely, PLY data and H5DF data. PLY data contains a set of .ply files, each of which stands for a mesh of a Primitive3D object. Two extra information, **source** and **label**, is included in the *.ply* file, which are the segmentation labels. H5DF data stands for the *.h5* files that samples 8192 points for each object. Each *.h5* file contains the following keys and data:
-* *data*: points.
+* *data*: coordinates of points with shape ($N \times 8192 \times 3$)
 * *sem_label*: asdasd.
 
 If ones would like to generate their own datase, please refer to [`Data Generation`](#data-generation). Or one can download the pre-generated dataset with the links  in [`Data Generation`](#download-link).
