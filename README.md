@@ -41,3 +41,17 @@ User can change the default path by modify `gen_primitive3d.py`. Other modificat
 | Name |  PLY Link   | H5DF Link  | Description |
 |  ----  | ----  |  ----  | ----  |
 |Original|[link](https://nusdataset.s3.ap-southeast-1.amazonaws.com/primitive3d/primitive3D_ply.zip)(5.8 GB)|[link](https://nusdataset.s3.ap-southeast-1.amazonaws.com/primitive3d/primitive3D.h5)(36.6GB)|150,000 objects with 1-6 primitives. |
+
+
+#### If you find our work useful, please considering citing
+
+```
+@inproceedings{li2022primitive3d,
+  title={Primtive3D: 3D Object Dataset Synthesis from Randomly Assembled Primitives},
+  author={Li, Xinke and Ding, Henghui and Tong, Zekun and Wu, Yuwei and Chee, Yeow Meng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  year={2022}
+}
+```
+
+
