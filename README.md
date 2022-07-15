@@ -17,7 +17,7 @@ If ones would like to generate their own datase, please refer to [`Data Generati
 All experiments have been tested on Python 3.6 and CUDA10.2 environment.
 ### Requirements for Data Generation
 **Install PyMesh：**
-PyMesh can be install with the '.whl' files in the latest released [version 3.0](https://github.com/PyMesh/PyMesh/releases/tag/v0.3).
+PyMesh can be install with the '.whl' files in the latest released [version 3.0](https://github.com/PyMesh/PyMesh/releases/tag/v0.3), or our pre-compiled '.whl' for [various python versions](https://github.com/shinke-li/Primtive3D/releases/tag/PyMesh).
 
 **Other dependencies：**
 Other depent packages can be installed by the following command
